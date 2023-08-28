@@ -61,11 +61,11 @@ background-color:lightblue;
     
 }
 footer-dark h2{
-    margin -top:0;
+    margin-top:0;
     margin-bottom:12px;
     font-weight:bold;
     font-size:20px;
-text -align:right;
+text-align:right;
 }
 .footer-dark ul{
     color:white;

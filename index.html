@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rail reservation booking</title>
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <style>
+        body{
+            background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)) ,url('railway 3.jpg');
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-size:100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <br></br>
+        <h3 align ="center">
+            <div class ="main">
+             <ul>
+              <li>  <a href="home.html" class="btn">Home &emsp;      </a></li>
+               <li> <a href="login.html" class="btn">login  &emsp;    </a></li>
+              <li> <a href="about-us.html" class="btn">about  &emsp;  </a></li> 
+               <li> <a href="contact-us.html"class="btn">contact us    &emsp;</a></li>
+            </ul> </div>
+        </h3>
+
+    <main>
+        <section class="intro">
+            <div class="caption">
+                <h1 align ="center">"welcome to our official page! please book your ticket and don't forget to reach us if needed!"</h1>
+            </div>
+            <center>
+                <div class="search">
+                    <div class="title">
+                  <h3> Find Trains</h3> 
+                     </div>
+                <form action="bookingdetails.html"method="GET">
+                    <label for="from">from:</label>
+                    <select id ="from" name="from">
+                    <option value="kolkata">kolkata</option>
+                    <option value="mumbai">mumbai</option>                 
+                    <option value="chennai">chennai</option>      
+                    <option value="delhi">delhi</option>
+                    <option value="pune">pune</option>
+                    <option value="gaya">gaya</option>
+                    <option value="bangalore">bangalore</option>
+                    <option value="kota">kota</option>
+     
+                  
+                    <option value="tripura">tripura</option>
+                    </select>
+                    <label for ="to"> to:</label>
+                    <select id ="to" name ="to">
+
+                        <option value="mumbai">mumbai</option>
+                        <option value="kolkata">kolkata</option>
+                        <option value="chennai">chennai</option>
+                        <option value="delhi">delhi</option>
+
+                        <option value="pune">pune</option>
+                        <option value="gaya">gaya</option>
+                        <option value="bangalore">bangalore</option>
+                        <option value="kota">kota</option></option>
+                            
+                        <option value="goa">goa</option>
+                        <option value="tripura">tripura</option>
+
+                        
+                    </select>
+                    <label for="day">Date:</label>
+                    <input type="data"id="day" name="day">
+                    <input type="submit">
+                </form>
+            </center>
+        </section>
+    </main>
+       <div class="footer-dark">
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 items">
+                <h1>&emsp13;services</h1>
+                <ul>
+                   <li><a href="#">Registration of train</a></li>
+                   <li><a href="#">mobile ticketing service</a></li>
+                   <li><a href="#">SMS service</a></li>
+                </ul>
+                
+            </div>
+            <div class="col-sm-6 col-md-3 items">
+                <h1 text align="right">Description</h1>
+                <p text align="right">A website  made to help people in railway ticket booking .follow us to know more! </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+       </div>
+</body>
+</html>
