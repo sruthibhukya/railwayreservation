@@ -1,5 +1,6 @@
 .inline{
     display: inline-block;
+    text-align: right;
 }
 ul{
     float:center;
