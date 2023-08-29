@@ -1,6 +1,9 @@
+.inline{
+    display: inline-block;
+}
 ul{
     float:center;
-    list-sytle-type:none;
+    
     margin-top :25px;
 }
 ul li{
